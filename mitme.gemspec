@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['Chance Feick']
   gem.email         = %w(chancefeick@gmail.com)
   gem.homepage      = 'https://github.com/chancefeick/mitme'
-  gem.description   = 'mitme adds an MIT license to your rails application using a generator.'
+  gem.description   = 'A library to add an MIT license to your rails application.'
   gem.summary       = 'A library to add an MIT license to your rails application.'
 
   gem.add_dependency 'rails','>= 4.0.0'

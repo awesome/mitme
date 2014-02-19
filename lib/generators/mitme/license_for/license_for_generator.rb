@@ -5,14 +5,13 @@ module Mitme
 
     class LicenseForGenerator < Rails::Generators::Base
       argument :copyright_holders, :type => :string, :default => "copyright holders"
-      class_option :holders, :type => :boolean, :default => true
 
       def generate_license
         File.open("LICENSE.txt", 'w+') { |f| 
           f.write("The MIT License (MIT)")
           f.write("\n")
           f.write("\n")
-          f.write("Copyright (c) <#{current_year}> <#{holders_name}>")
+          f.write("Copyright (c) #{current_year} #{holders_name}")
           f.write("\n")
           f.write("\n")
           f.write("Permission is hereby granted, free of charge, to any person obtaining a copy ")
