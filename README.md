@@ -1,6 +1,6 @@
 # MITme
 
-A library to add an MIT license to your rails application.
+A library to generate an MIT license for your rails application.
 
 
 ## Installation
@@ -8,6 +8,37 @@ A library to add an MIT license to your rails application.
 <pre><code>gem 'mitme'</code></pre>
 
 
+## Dependencies
+
+<pre><code>rails >= 3.0.0</code></pre>
+
+
 ## Usage
 
-<pre><code>rails g mitme:license_for copyright_holders</code></pre>
+<pre><code>rails g mitme:license_for "copyright_holders"</code></pre>
+
+Double quotes (**""**) are **required** for spacing.
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Chance Feick
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal 
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
+furnished to do so, subject to the following conditions: 
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE.
